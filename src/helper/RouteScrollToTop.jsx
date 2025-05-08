@@ -65,14 +65,14 @@ const RouteScrollToTop = () => {
 
   return (
     <>
-      <div className='progress-wrap'>
+      <div className="progress-wrap">
         <svg
-          className='progress-circle svg-content'
-          width='100%'
-          height='100%'
-          viewBox='-1 -1 102 102'
+          className="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
         >
-          <path d='M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98' />
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
       </div>
     </>
