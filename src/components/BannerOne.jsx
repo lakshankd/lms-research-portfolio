@@ -32,31 +32,20 @@ const BannerOne = () => {
         <div className="row gy-5 align-items-center">
           <div className="col-xl-6">
             <div className="banner-content pe-md-4">
-              {/* <div className="flex-align gap-8 mb-16" data-aos="fade-down">
-                <span className="w-8 h-8 bg-main-600 rounded-circle" />
-                <h5 className="text-main-600 mb-0">
-                  {" "}
-                  Your Future, Achieve Success
-                </h5>
-              </div> */}
-              <h1 className="display2 mb-24 wow bounceInLeft">
-                Personalized Adaptive System{" "}
+              <h3 className="display4 mb-24 wow bounceInLeft">
                 <span
                   className="text-main-two-600 wow bounceInRight"
                   data-wow-duration="2s"
                   data-wow-delay=".5s"
                 >
-                  for Enhancing{" "}
+                  Personalized Adaptive System for Enhancing Student Performance
                 </span>
-                Student{" "}
                 <span
                   className="text-main-600 wow bounceInUp"
                   data-wow-duration="1s"
                   data-wow-delay=".5s"
-                >
-                  Performance
-                </span>
-              </h1>
+                ></span>
+              </h3>
               <p className="text-neutral-500 text-line-2 wow bounceInUp">
                 Empowering Students with Smart, Personalized, and Adaptive
                 Learning Journeys...

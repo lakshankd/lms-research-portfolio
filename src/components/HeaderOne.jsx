@@ -81,9 +81,17 @@ const HeaderOne = () => {
       ],
     },
     { href: "/milestones", label: "Milestones" },
-    { href: "/downloads", label: "Downloads" },
+    {
+      label: "Downloads",
+      links: [
+        {
+          href: "/downloads/#documents",
+          label: "Documents",
+        },
+        { href: "/downloads/#presentations", label: "Presentations" },
+      ],
+    },
     { href: "/about-us", label: "About Us" },
-    { href: "/achievements", label: "Achievements" },
     { href: "/contact-us", label: "Contact Us" },
 
     // {
@@ -156,7 +164,11 @@ const HeaderOne = () => {
               {/* Logo Start */}
               <div className="logo">
                 <Link href="/" className="link">
-                  <img src="assets/images/logo/logo.png" alt="Logo" />
+                  <img
+                    src="assets/images/logo/logo-new.png"
+                    alt="Logo"
+                    style={{ height: "100px" }}
+                  />
                 </Link>
               </div>
               {/* Logo End  */}
@@ -258,7 +270,11 @@ const HeaderOne = () => {
         </button>
         <div className="mobile-menu__inner">
           <Link href="/" className="mobile-menu__logo">
-            <img src="assets/images/logo/logo.png" alt="Logo" />
+            <img
+              src="assets/images/logo/logo-new.png"
+              alt="Logo"
+              style={{ height: "100px" }}
+            />
           </Link>
           <div className="mobile-menu__menu">
             <ul className="nav-menu flex-align nav-menu--mobile">

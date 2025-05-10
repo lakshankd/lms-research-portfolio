@@ -18,17 +18,29 @@ const FooterOne = () => {
           <div className="row row-cols-xxl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5">
             <div className="col" data-aos="fade-up" data-aos-duration={300}>
               <div className="footer-item">
-                <div className="footer-item__logo">
+                <div
+                  className="footer-item__logo"
+                  style={{
+                    width: "100%",
+                    height: "100%",
+                    maxWidth: "190px",
+                    maxHeight: "128px",
+                  }}
+                >
                   <Link href="/">
                     {" "}
-                    <img src="assets/images/logo/logo.png" alt="" />
+                    <img
+                      src="assets/images/logo/logo-new.png"
+                      alt=""
+                      style={{ height: "100px" }}
+                    />
                   </Link>
                 </div>
                 <p className="my-32">
                   Empowering Students with Smart, Personalized, and Adaptive
                   Learning Journeys
                 </p>
-                <ul className="social-list flex-align gap-24">
+                {/* <ul className="social-list flex-align gap-24">
                   <li className="social-list__item">
                     <Link
                       href="https://www.facebook.com"
@@ -62,7 +74,7 @@ const FooterOne = () => {
                       <i className="ph-bold ph-pinterest-logo" />
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="col" data-aos="fade-up" data-aos-duration={400}>
@@ -71,7 +83,7 @@ const FooterOne = () => {
                 <ul className="footer-menu">
                   <li className="mb-16">
                     <Link
-                      href="/milestone"
+                      href="/milestones"
                       className="text-neutral-500 hover-text-main-600 hover-text-decoration-underline"
                     >
                       Milestones
