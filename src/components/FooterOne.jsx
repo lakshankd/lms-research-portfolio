@@ -18,15 +18,7 @@ const FooterOne = () => {
           <div className="row row-cols-xxl-5 row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-5">
             <div className="col" data-aos="fade-up" data-aos-duration={300}>
               <div className="footer-item">
-                <div
-                  className="footer-item__logo"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    maxWidth: "190px",
-                    maxHeight: "128px",
-                  }}
-                >
+                <div className="footer-item__logo">
                   <Link href="/">
                     {" "}
                     <img

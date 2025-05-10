@@ -167,7 +167,7 @@ const HeaderOne = () => {
                   <img
                     src="assets/images/logo/logo-new.png"
                     alt="Logo"
-                    style={{ height: "100px" }}
+                    style={{ height: "54px" }}
                   />
                 </Link>
               </div>
@@ -273,7 +273,7 @@ const HeaderOne = () => {
             <img
               src="assets/images/logo/logo-new.png"
               alt="Logo"
-              style={{ height: "100px" }}
+              style={{ height: "54px" }}
             />
           </Link>
           <div className="mobile-menu__menu">
