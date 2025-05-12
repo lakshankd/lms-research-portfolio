@@ -122,10 +122,10 @@ const FooterOne = () => {
                   </li>
                   <li className="mb-16">
                     <Link
-                      href="/project-scope/#research-problem-and-solution"
+                      href="/project-scope/#research-problem"
                       className="text-neutral-500 hover-text-main-600 hover-text-decoration-underline"
                     >
-                      Research Problem & Solution
+                      Research Problem
                     </Link>
                   </li>
                   <li className="mb-16">

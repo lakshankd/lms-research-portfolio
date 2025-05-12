@@ -12,17 +12,16 @@ const MethodologySection = () => {
       <div className="position-relative">
         <div className="container">
           <div className="row align-items-center gy-4">
-            <div className="mb-16">
+            <div className="mb-16 text-center">
               <div>
                 <img
                   src="assets/images/custom/project-scope/methodology.png"
                   alt=""
-                  // data-tilt=""
-                  // data-tilt-max={10}
-                  // data-tilt-speed={500}
-                  // data-tilt-perspective={5000}
-                  // data-tilt-full-page-listening=""
-                  width={"100%"}
+                  data-tilt=""
+                  data-tilt-max={10}
+                  data-tilt-speed={500}
+                  data-tilt-perspective={5000}
+                  data-tilt-full-page-listening=""
                 />
               </div>
             </div>
@@ -33,7 +32,7 @@ const MethodologySection = () => {
               data-aos="fade-up"
               data-aos-duration={200}
             >
-              <p className="text-secondary custom-text-justify wow bounceInUp">
+              <p className="text-secondary wow bounceInUp">
                 This section discusses in detail the approach followed in
                 designing the proposed system. Figure illustrates the System
                 High Level Architecture Diagram. The solution to the system
@@ -54,7 +53,7 @@ const MethodologySection = () => {
                   Collaborative learning and peer interaction
                 </li>
               </ol>
-              <p className="text-secondary custom-text-justify wow bounceInUp">
+              <p className="text-secondary wow bounceInUp">
                 This research adopted a mixed-method approach, collecting both
                 quantitative and qualitative data from 10,000 final-year Sri
                 Lankan university students, resulting in over 40,000 records.
