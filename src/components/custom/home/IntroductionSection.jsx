@@ -6,7 +6,7 @@ const IntroductionSection = () => {
       <div className="container">
         <div className="">
           <h2 className="mb-24 wow bounceIn">Introduction</h2>
-          <p className="wow bounceInUp custom-text-justify">
+          <p className="wow bounceInUp">
             The growing need for personalized learning strategies has driven the
             development of data-driven solutions to meet the diverse needs of
             Sri Lankan university students. A key challenge lies in identifying

@@ -46,7 +46,7 @@ const BannerOne = () => {
                   data-wow-delay=".5s"
                 ></span>
               </h3>
-              <p className="text-neutral-500 text-line-2 wow bounceInUp">
+              <p className="text-dark fw-semibold text-line-2 wow bounceInUp">
                 Empowering Students with Smart, Personalized, and Adaptive
                 Learning Journeys...
               </p>

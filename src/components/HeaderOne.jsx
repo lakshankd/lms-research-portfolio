@@ -78,6 +78,7 @@ const HeaderOne = () => {
           label: "Research Objectives",
         },
         { href: "/project-scope/#methodology", label: "Methodology" },
+        { href: "/project-scope/#technologies", label: "Technologies" },
       ],
     },
     { href: "/milestones", label: "Milestones" },

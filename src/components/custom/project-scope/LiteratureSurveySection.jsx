@@ -24,8 +24,8 @@ const LiteratureSurveySection = () => {
                     data-tilt-full-page-listening=""
                   />
                   <figcaption className="mt-3 text-secondary figure-font">
-                    Reference [1]: Age Groups of Participants in Studies of
-                    Personalized Learning
+                    Figure 1: Age Groups of Participants in Studies of
+                    Personalized Learning [1]
                   </figcaption>
                 </figure>
               </div>
@@ -33,8 +33,8 @@ const LiteratureSurveySection = () => {
             <div className="col-xl-6">
               <div className="about-two-content">
                 <div className="mb-40">
-                  <h2 className="mb-24 wow bounceIn">Literature survey</h2>
-                  <p className="text-secondary custom-text-justify wow bounceInUp">
+                  <h2 className="mb-24 wow bounceIn">Literature Survey</h2>
+                  <p className="text-secondary wow bounceInUp">
                     In recent years, adaptive learning has emerged as a
                     transformative approach in higher education, allowing
                     students to learn at their own pace and based on their
@@ -52,14 +52,17 @@ const LiteratureSurveySection = () => {
                     microlearning techniques to deliver customized educational
                     materials that match each learner’s preferences. These tools
                     have been shown to significantly improve engagement and
-                    knowledge retention [3]. Furthermore, integrating social
-                    learning strategies through peer grouping and performance
-                    prediction enhances collaborative learning environments.
-                    Despite international success, such dynamic and personalized
-                    systems are still underutilized in Sri Lanka. This research
-                    aims to fill that gap by incorporating these proven methods
-                    into one integrated platform, enhancing educational outcomes
-                    across Sri Lankan universities.
+                    knowledge retention [3].
+                  </p>
+                  <p className="text-secondary wow bounceInUp mt-16">
+                    Furthermore, integrating social learning strategies through
+                    peer grouping and performance prediction enhances
+                    collaborative learning environments. Despite international
+                    success, such dynamic and personalized systems are still
+                    underutilized in Sri Lanka. This research aims to fill that
+                    gap by incorporating these proven methods into one
+                    integrated platform, enhancing educational outcomes across
+                    Sri Lankan universities.
                   </p>
                   <h6 className="mt-24 wow bounceIn fw-semibold text-dark">
                     References

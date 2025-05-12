@@ -8,12 +8,15 @@ const ResearchObjectivesSection = () => {
     >
       <div className="position-relative">
         <div className="container">
+          <div className="section-heading text-center">
+            <div className="section-heading__inner">
+              <h2 className="mb-24 wow bounceInLeft">Research Objectives</h2>
+            </div>
+          </div>
+
           <div className="row gy-xl-0 gy-5 flex-wrap-reverse align-items-center">
             <div>
               <div className="about-content">
-                <div className="mb-40">
-                  <h2 className="mb-24 wow bounceIn">Research Objectives</h2>
-                </div>
                 <div
                   className="flex-align align-items-start gap-28 mb-32"
                   data-aos="fade-left"
@@ -105,12 +108,7 @@ const ResearchObjectivesSection = () => {
                     <p className="text-neutral-500">
                       To develop and implement a dynamic, personalized learning
                       system for university students by leveraging Graph Neural
-                      Networks and Social Network Analysis. This system aims to
-                      enhance collaborative learning and peer interactions,
-                      provide real-time feedback, and accurately assess
-                      individual contributions within group work, creating a
-                      more effective, inclusive, and engaging learning
-                      environment.
+                      Networks and Social Network Analysis.
                     </p>
                   </div>
                 </div>
