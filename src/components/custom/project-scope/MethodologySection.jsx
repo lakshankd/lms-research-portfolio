@@ -12,17 +12,16 @@ const MethodologySection = () => {
       <div className="position-relative">
         <div className="container">
           <div className="row align-items-center gy-4">
-            <div className="mb-16">
+            <div className="mb-16 text-center">
               <div>
                 <img
                   src="assets/images/custom/project-scope/methodology.png"
                   alt=""
-                  // data-tilt=""
-                  // data-tilt-max={10}
-                  // data-tilt-speed={500}
-                  // data-tilt-perspective={5000}
-                  // data-tilt-full-page-listening=""
-                  width={"100%"}
+                  data-tilt=""
+                  data-tilt-max={10}
+                  data-tilt-speed={500}
+                  data-tilt-perspective={5000}
+                  data-tilt-full-page-listening=""
                 />
               </div>
             </div>

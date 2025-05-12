@@ -70,8 +70,8 @@ const HeaderOne = () => {
         },
         { href: "/project-scope/#research-gap", label: "Research Gap" },
         {
-          href: "/project-scope/#research-problem-and-solution",
-          label: "Research Problem & Solution",
+          href: "/project-scope/#research-problem",
+          label: "Research Problem",
         },
         {
           href: "/project-scope/#research-objectives",

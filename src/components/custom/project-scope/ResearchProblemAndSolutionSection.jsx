@@ -3,7 +3,7 @@ import React from "react";
 const ResearchProblemAndSolutionSection = () => {
   return (
     <section
-      id="research-problem-and-solution"
+      id="research-problem"
       className="features py-120 position-relative overflow-hidden mash-bg-main mash-bg-main-two mash-reverse"
     >
       <div className="container">
