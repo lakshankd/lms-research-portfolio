@@ -73,7 +73,7 @@ const BannerOne = () => {
           <div className="col-xl-6">
             <div className="banner-thumb position-relative">
               <img
-                src="assets/images/banner/image.png"
+                src="assets/images/custom/virtual-graduation-ceremony.png"
                 alt=""
                 className="banner-thumb__img rounded-12 wow bounceIn"
                 data-wow-duration="3s"
@@ -90,7 +90,7 @@ const BannerOne = () => {
                 alt=""
                 className="curve-arrow position-absolute"
               />
-              <div
+              {/* <div
                 className="banner-box one px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg d-inline-block"
                 data-aos="fade-down"
               >
@@ -127,8 +127,8 @@ const BannerOne = () => {
                     className="w-48 h-48 rounded-circle object-fit-cover transition-2"
                   />
                 </div>
-              </div>
-              <div
+              </div> */}
+              {/* <div
                 className="banner-box two px-24 py-12 rounded-12 bg-white fw-medium box-shadow-lg flex-align d-inline-flex gap-16"
                 data-aos="fade-up"
               >
@@ -156,7 +156,7 @@ const BannerOne = () => {
                     (704) 555-0127
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

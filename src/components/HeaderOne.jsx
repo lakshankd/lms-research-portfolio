@@ -62,7 +62,7 @@ const HeaderOne = () => {
   const menuItems = [
     { href: "/", label: "Home" },
     {
-      label: "Project Scope",
+      label: "Research Scope",
       links: [
         {
           href: "/project-scope/#literature-survey",

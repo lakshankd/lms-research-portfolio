@@ -1,4 +1,10 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import LiteratureSurveySection from "@/components/custom/project-scope/LiteratureSurveySection";
+import MethodologySection from "@/components/custom/project-scope/MethodologySection";
+import ResearchGapSection from "@/components/custom/project-scope/ResearchGapSection";
+import ResearchObjectivesSection from "@/components/custom/project-scope/ResearchObjectivesSection";
+import ResearchProblemAndSolutionSection from "@/components/custom/project-scope/ResearchProblemAndSolutionSection";
+import TechnologiesSection from "@/components/custom/project-scope/TechnologiesSection";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import Animation from "@/helper/Animation";
@@ -20,7 +26,25 @@ const page = () => {
       <HeaderOne />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={"Project Scope"} />
+      <Breadcrumb title={"Research Scope"} />
+
+      {/* Literature Survey Section */}
+      <LiteratureSurveySection />
+
+      {/* Research Gap Section */}
+      <ResearchGapSection />
+
+      {/* Research Problem and Solution Section */}
+      <ResearchProblemAndSolutionSection />
+
+      {/* Research Objective Section */}
+      <ResearchObjectivesSection />
+
+      {/* Methodology Section */}
+      <MethodologySection />
+
+      {/* Technologies Section */}
+      <TechnologiesSection />
 
       <FooterOne />
     </>

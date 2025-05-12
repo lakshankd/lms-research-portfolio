@@ -1,6 +1,13 @@
+import AboutOne from "@/components/AboutOne";
+import AboutTwo from "@/components/AboutTwo";
 import BannerOne from "@/components/BannerOne";
+import ChooseUsOne from "@/components/ChooseUsOne";
+import IntroductionSection from "@/components/custom/home/IntroductionSection";
+import ExploreCourseOne from "@/components/ExploreCourseOne";
+import FeaturesOne from "@/components/FeaturesOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
+import InstructorOne from "@/components/InstructorOne";
 import Animation from "@/helper/Animation";
 
 export const metadata = {
@@ -12,21 +19,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-      {/* HeaderOne */}
       <HeaderOne />
-      {/* Animation */}
       <Animation />
-      {/* BannerOne */}
       <BannerOne />
-      {/* BrandOne */}
-      {/* <BrandOne /> */}
-      {/* FeaturesOne */}
-      {/* <FeaturesOne /> */}
-
-      {/* ExploreCourseOne */}
+      <IntroductionSection />
       {/* <ExploreCourseOne /> */}
       {/* AboutOne */}
-      {/* <AboutOne /> */}
+      {/* <AboutTwo /> */}
       {/* InstructorOne */}
       {/* <InstructorOne /> */}
       {/* CHooseUsOne */}
