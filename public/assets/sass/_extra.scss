@@ -87,3 +87,28 @@
 @media only screen and (max-width: 425px) {
   /*Small smartphones [325px -> 425px]*/
 }
+
+/* Custom */
+.custom-text-justify {
+  text-align: justify;
+}
+
+.reference-font {
+  font-size: x-small;
+}
+
+.figure-font {
+  font-size: small;
+}
+
+.text-line-12 {
+  display: -webkit-box;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom_ol {
+  list-style: decimal;
+}
