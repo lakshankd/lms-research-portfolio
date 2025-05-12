@@ -11,6 +11,10 @@ const ResearchGapSection = () => {
         <div className="section-heading text-center">
           <div className="section-heading__inner">
             <h2 className="mb-24 wow bounceInLeft">Research Gap</h2>
+            <p>
+              Following areas are the research gaps found in most of the recent
+              researches.
+            </p>
           </div>
         </div>
         <div className="row gy-4">
@@ -28,10 +32,9 @@ const ResearchGapSection = () => {
                 />
               </span>
               <h4 className="mb-16 transition-1 item-hover__text">
-                Personalized Assessment and Learning Path Generation (Clip Art
-                Image)
+                Personalized Assessment and Learning Path Generation
               </h4>
-              <p className="transition-1 item-hover__text custom-text-justify  ">
+              <p className="transition-1 item-hover__text   ">
                 Most existing educational systems fail to assess students’
                 knowledge levels dynamically or offer real-time diagnostic
                 feedback. Traditional assessments are periodic and static, which
@@ -64,10 +67,9 @@ const ResearchGapSection = () => {
                 />
               </span>
               <h4 className="mb-16 transition-1 item-hover__text ">
-                Personalized Content Delivery and Resource Alignment (Clip Art
-                Image)
+                Personalized Content Delivery and Resource Alignment
               </h4>
-              <p className="transition-1 item-hover__text custom-text-justify ">
+              <p className="transition-1 item-hover__text  ">
                 Learning platforms in Sri Lanka generally deliver uniform
                 content to all students regardless of their learning style,
                 attention span, or resource preferences. This one-size-fits-all
@@ -100,10 +102,9 @@ const ResearchGapSection = () => {
                 />
               </span>
               <h4 className="mb-16 transition-1 item-hover__text ">
-                Predictive Performance Monitoring and Risk Identification (Clip
-                Art Image)
+                Predictive Performance Monitoring and Risk Identification
               </h4>
-              <p className="transition-1 item-hover__text custom-text-justify ">
+              <p className="transition-1 item-hover__text  ">
                 Most academic monitoring systems are limited to historical grade
                 tracking and do not utilize predictive analytics to identify
                 at-risk students before academic failure occurs. These systems
@@ -135,10 +136,9 @@ const ResearchGapSection = () => {
                 />
               </span>
               <h4 className="mb-16 transition-1 item-hover__text">
-                Collaborative Learning and Peer Engagement Modeling (Clip Art
-                Image)
+                Collaborative Learning and Peer Engagement Modeling
               </h4>
-              <p className="transition-1 item-hover__text custom-text-justify ">
+              <p className="transition-1 item-hover__text  ">
                 While collaborative learning is widely acknowledged as essential
                 for academic success, current systems do not adequately support
                 dynamic and data-driven group formation. Grouping is often

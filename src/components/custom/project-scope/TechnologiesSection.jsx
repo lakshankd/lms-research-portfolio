@@ -224,6 +224,16 @@ const TechnologiesSection = () => {
                           Firebase
                         </span>
                       </div>
+                      <div className="brand-slider__item px-24 d-flex flex-column align-items-center">
+                        <img
+                          className="mb-2"
+                          src="assets/images/custom/project-scope/technologies/colab.png"
+                          alt=""
+                        />
+                        <span className="text-neutral-500 text-center">
+                          Google Colab
+                        </span>
+                      </div>
                     </Slider>
                   </div>
                 </div>
