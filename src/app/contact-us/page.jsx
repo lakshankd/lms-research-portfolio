@@ -1,5 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import ContactInner from "@/components/ContactInner";
 import Header from "@/components/custom/common/Header";
+import ContactUs from "@/components/custom/contact-us/ContactUs";
 import FooterOne from "@/components/FooterOne";
 import Animation from "@/helper/Animation";
 import React from "react";
@@ -21,6 +23,9 @@ const page = () => {
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Contact Us"} />
+
+      {/* Contact Us */}
+      <ContactUs />
 
       <FooterOne />
     </>
