@@ -1,5 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/custom/common/Header";
+import TimelineSection from "@/components/custom/milestone/TimelineSection";
 import FooterOne from "@/components/FooterOne";
 import Animation from "@/helper/Animation";
 import React from "react";
@@ -22,6 +23,8 @@ const page = () => {
       {/* Breadcrumb */}
       <Breadcrumb title={"Milestones"} />
 
+      {/* Timeline Section */}
+      <TimelineSection />
       <FooterOne />
     </>
   );
