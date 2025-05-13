@@ -17,6 +17,7 @@ const MethodologySection = () => {
                 <img
                   src="assets/images/custom/project-scope/methodology.png"
                   alt=""
+                  className="img-fluid col-xl-6"
                   data-tilt=""
                   data-tilt-max={10}
                   data-tilt-speed={500}
