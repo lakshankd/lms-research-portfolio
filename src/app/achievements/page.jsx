@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import Header from "@/components/custom/common/Header";
 import FooterOne from "@/components/FooterOne";
-import HeaderOne from "@/components/HeaderOne";
 import Animation from "@/helper/Animation";
 import React from "react";
 
@@ -16,8 +16,8 @@ const page = () => {
       {/* Animation */}
       <Animation />
 
-      {/* HeaderTwo */}
-      <HeaderOne />
+      {/* Header*/}
+      <Header />
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Achievements"} />
