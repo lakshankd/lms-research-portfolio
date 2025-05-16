@@ -1,5 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Header from "@/components/custom/common/Header";
+import DocumentDownloadSection from "@/components/custom/downloads/DocumentDownloadSection";
+import PresentationDownloadSection from "@/components/custom/downloads/PresentationDownloadSection";
 import FooterOne from "@/components/FooterOne";
 import Animation from "@/helper/Animation";
 import React from "react";
@@ -21,6 +23,11 @@ const page = () => {
 
       {/* Breadcrumb */}
       <Breadcrumb title={"Downloads"} />
+
+      {/* Document Download Section */}
+      <DocumentDownloadSection />
+
+      <PresentationDownloadSection />
 
       <FooterOne />
     </>
