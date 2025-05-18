@@ -74,7 +74,7 @@ const ContactUs = () => {
                         type="text"
                         className="common-input rounded-pill border-transparent focus-border-main-600"
                         id="email"
-                        placeholder="Enter your name..."
+                        placeholder="Enter Your Name..."
                         required
                       />
                     </div>
@@ -90,7 +90,7 @@ const ContactUs = () => {
                         className="common-input rounded-pill border-transparent focus-border-main-600"
                         id="email"
                         name="email"
-                        placeholder="Enter Email..."
+                        placeholder="Enter Your Email..."
                         required
                       />
                       <ValidationError
