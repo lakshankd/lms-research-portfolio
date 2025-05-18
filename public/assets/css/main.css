@@ -10691,7 +10691,7 @@ body::after {
 /* =========================== ABout Css End ============================ */
 /* ======================== Instructor Css Start ========================= */
 .instructor-item .cover-img {
-  min-height: 344px;
+  /* min-height: 344px; */
 }
 
 .social-infos {
