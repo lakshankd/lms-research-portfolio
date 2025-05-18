@@ -1,4 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import SupervisorsSection from "@/components/custom/about-us/SupervisorsSection";
+import TeamSection from "@/components/custom/about-us/TeamSection";
 import Header from "@/components/custom/common/Header";
 import FooterOne from "@/components/FooterOne";
 import Animation from "@/helper/Animation";
@@ -21,6 +23,10 @@ const page = () => {
 
       {/* Breadcrumb */}
       <Breadcrumb title={"About Us"} />
+
+      <SupervisorsSection />
+
+      <TeamSection />
 
       <FooterOne />
     </>
